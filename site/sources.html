@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sources &amp; Methods · Multi-omics Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=6">
+<style>
+  .doc { max-width: 860px; margin: 0 auto; padding: 40px 24px 60px; }
+  .doc h1 { font: 700 34px/1.15 var(--serif); color: var(--navy); margin: 10px 0 8px; }
+  .doc h2 { font: 600 22px/1.3 var(--serif); margin: 36px 0 8px; }
+  .doc h3 { font: 600 16px/1.3 var(--sans); margin: 22px 0 6px; }
+  .doc p, .doc li { font: 400 16px/1.65 var(--serif); }
+  .doc code { font: 13px var(--mono); background: #fff; border: 1px solid var(--rule); border-radius: 4px; padding: 0 4px; }
+  .doc table { margin: 8px 0 16px; }
+</style>
+</head>
+<body>
+<div class="doc">
+  <a href="index.html">← Back to the lab</a>
+  <div class="kicker" style="margin-top:22px">BIOC 557 · Multi-omics Lab</div>
+  <h1>Sources &amp; methods</h1>
+  <p>Everything shown in the lab is computed in the browser from the matrices described here. Nothing is uploaded. The analysis engine (JavaScript) is part of the site, and the R scripts that build the matrices are in the <a href="https://github.com/dorothyzh/bioc557-multiomics-lab">project repository</a>, so every number can be traced.</p>
+
+  <h2>Human: lung adenocarcinoma (CPTAC)</h2>
+  <ul>
+    <li>Li Y, Dou Y, et al. Proteogenomic data and resources for pan-cancer analysis. <i>Cancer Cell</i> 41, 1397–1406 (2023). <a href="https://doi.org/10.1016/j.ccell.2023.06.009">doi:10.1016/j.ccell.2023.06.009</a></li>
+    <li>Gillette MA, Satpathy S, Cao S, et al. Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma. <i>Cell</i> 182, 200–225 (2020). <a href="https://doi.org/10.1016/j.cell.2020.06.013">doi:10.1016/j.cell.2020.06.013</a></li>
+  </ul>
+  <p>Files: harmonized data freeze v1.2, LUAD folder (<code>LUAD_RNAseq_gene_RSEM_coding_UQ_1500_log2_{Tumor,Normal}.txt</code>, <code>LUAD_proteomics_gene_abundance_log2_reference_intensity_normalized_{Tumor,Normal}.txt</code>, <code>LUAD_phospho_site_abundance_log2_reference_intensity_normalized_{Tumor,Normal}.txt</code>, <code>LUAD_meta.txt</code>), from the public CPTAC pan-cancer bucket listed at <a href="https://kb.linkedomics.org/download">kb.linkedomics.org/download</a>.</p>
+  <h3>Processing</h3>
+  <ul>
+    <li>101 patients with a tumour and a normal-adjacent sample in all three layers (202 samples).</li>
+    <li>Ensembl IDs mapped to HGNC symbols with <code>org.Hs.eg.db</code>; RNA restricted to protein-coding genes expressed in ≥ 90% of samples (median log₂ ≥ 4). Phosphosites labelled “SYMBOL site”.</li>
+    <li>Teaching pools: features with ≤ 50% missing values, ranked by variance across all samples without labels; the top 1,500 per layer are shipped. No imputation before shipping.</li>
+    <li>RNA–protein concordance computed offline on all 11,299 genes measured in both layers (Spearman, ≥ 20 paired observations).</li>
+    <li>Gene sets: MSigDB Hallmark, GO biological process and Reactome via <code>msigdbr</code> 26.1.0, restricted to genes present in the data (5–400 members).</li>
+  </ul>
+
+  <h2>Honey bee: nurse bees at highbush blueberry apiaries</h2>
+  <ul>
+    <li>Zhong H, Shi Y, Rogalski JC, et al., Zayed A, Foster LJ. Omics insights into the effects of highbush blueberry and cranberry crop agroecosystems on honey bee health and physiology. <i>Proteomics</i> (2025). <a href="https://doi.org/10.1002/pmic.70033">doi:10.1002/pmic.70033</a></li>
+  </ul>
+  <p>Files: MassIVE <a href="https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000097590">MSV000097590</a> (ProteomeXchange PXD062819), <code>search/SEARCH/Results_HBB_2020/diann-output.pg_matrix.tsv</code>, <code>Results_HBB_2021/t2t4_2021_ProteinGroups.tsv</code> and the search database <code>Bee_plus_virus_nosema.fasta</code>.</p>
+  <h3>Processing</h3>
+  <ul>
+    <li>Run names parsed as apiary (HBB01–10), colony set (e/u), timepoint (t2/t4) and tissue (H head, A abdomen, G midgut). All 40 pools have all three tissues. Each pool contains 12 nurse bees.</li>
+    <li>The 2020 and 2021 matrices are separate DIA-NN searches; they were joined by protein group and log₂-transformed. Year is therefore also the mass-spectrometry batch. The lab offers an optional within-year centring of each protein.</li>
+    <li>Protein groups were assigned to honey bee, <i>Nosema</i> or virus with the search FASTA. Pathogen protein signal = log₂(1 + summed intensity) per pool (gut for <i>Nosema</i>, all tissues for viruses).</li>
+    <li>Each tissue view keeps honey bee protein groups with ≤ 50% missing values in that tissue, top 1,500 by variance (label-free).</li>
+    <li>Labels: UniProt gene names where informative, otherwise the RefSeq description. GO biological process terms from UniProtKB entries cross-referenced to each RefSeq protein (mostly electronic), propagated to ancestors with <code>GO.db</code>.</li>
+    <li>The public deposit holds more runs than the 60 analysed in the paper; the meaning of the colony-set codes (e/u) is not stated in the article and is used here only as a label.</li>
+  </ul>
+
+  <h2>Analysis engine</h2>
+  <h3>Single-layer statistics</h3>
+  <p>Per-feature linear models on observed values with empirical-Bayes variance moderation following limma (<code>fitFDist</code>, legacy equal-df estimator). Paired designs are tested on within-pair differences, which is equivalent to <code>~ pair + group</code>. Benjamini–Hochberg FDR within each layer. Welch tests are shown for comparison. Checked against limma 3.x on simulated data: identical coefficients; moderated t within 0.003.</p>
+  <h3>PCA</h3>
+  <p>Centred model matrix (scaled as chosen), missing entries filled with the feature median or minimum for PCA only; top components by subspace iteration with Rayleigh–Ritz (identical to a full eigendecomposition to 10⁻⁶).</p>
+  <h3>Multi-view factor model</h3>
+  <p>Bayesian group factor analysis with variational inference: Gaussian likelihood with a noise precision per feature, Gaussian factors, and automatic relevance determination (Gamma priors) on the weights of each factor in each layer. This is the Gaussian MOFA model without the spike-and-slab sparsity prior. Missing values are skipped in the likelihood. Initialised by block-weighted joint PCA; convergence when the relative change in factor scores falls below 3 × 10⁻⁴. Variance explained follows the MOFA2 definition on observed entries. On simulated three-view data the factor scores matched MOFA2 1.20 (R, spike-and-slab off) with |r| ≥ 0.9995 and per-factor R² within 0.3 percentage points.</p>
+  <h3>Other analyses</h3>
+  <ul>
+    <li>Factor–covariate association: one-way ANOVA (η²) for categories, Spearman ρ for numbers.</li>
+    <li>Layer agreement: Spearman correlation between sample-distance matrices (Mantel statistic).</li>
+    <li>Variance partition: type-II sums of squares per covariate, or a balanced two-way decomposition on complete pairs for paired designs.</li>
+    <li>Enrichment: hypergeometric over-representation against the scored background, and a Mann–Whitney rank test (AUC effect size), both BH-adjusted.</li>
+    <li>Prediction: ridge-penalised logistic regression on the top |t| features chosen inside each training fold; stratified five-fold cross-validation repeated five times. The leaky variant selects features on all samples first.</li>
+  </ul>
+
+  <h2>Figures</h2>
+  <p>All charts are SVG drawn in print units (1 unit = 1 pt) at journal column widths of 89, 120 or 183 mm, with 6–7 pt Helvetica/Arial text and 0.6 pt axes. Group colours follow the Okabe–Ito colour-blind-safe palette; layer colours were checked for colour-vision deficiency and contrast. Downloads keep the physical size (SVG in mm; PNG at 600 dpi).</p>
+
+  <h2>Software</h2>
+  <p>d3 7.9.0 (ISC), JSZip 3.10.1 (MIT). Build scripts: R 4.5 with data.table, jsonlite, org.Hs.eg.db, msigdbr, GO.db.</p>
+  <p class="note">BIOC 557 · University of British Columbia · Instructor: Huan Zhong</p>
+</div>
+</body>
+</html>

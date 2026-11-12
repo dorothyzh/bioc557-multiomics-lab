@@ -1,0 +1,203 @@
+id,patient,tissue,sex,age,smoking,stage,EGFR,KRAS,TP53,STK11
+C3L-00001.T,C3L-00001,Tumor,Female,61,Never,Stage II,Wild type,Wild type,Wild type,Wild type
+C3L-00009.T,C3L-00009,Tumor,Male,76,Ever,Stage I,Wild type,Wild type,Mutant,Wild type
+C3L-00080.T,C3L-00080,Tumor,Male,58,Ever,Stage I,Wild type,Wild type,Mutant,Wild type
+C3L-00083.T,C3L-00083,Tumor,Male,71,Ever,Stage I,,,,
+C3L-00093.T,C3L-00093,Tumor,Female,66,Never,Stage I,Mutant,Wild type,Mutant,Wild type
+C3L-00094.T,C3L-00094,Tumor,Male,69,Ever,Stage I,Wild type,Mutant,Wild type,Mutant
+C3L-00095.T,C3L-00095,Tumor,Male,62,Ever,Stage I,Wild type,Wild type,Mutant,Mutant
+C3L-00140.T,C3L-00140,Tumor,Male,70,Ever,Stage I,Wild type,Wild type,Wild type,Mutant
+C3L-00144.T,C3L-00144,Tumor,Male,58,Ever,Stage I,Wild type,Wild type,Mutant,Wild type
+C3L-00263.T,C3L-00263,Tumor,Male,79,Ever,Stage II,Wild type,Mutant,Mutant,Wild type
+C3L-00279.T,C3L-00279,Tumor,Female,72,Ever,Stage I,Wild type,Mutant,Mutant,Wild type
+C3L-00368.T,C3L-00368,Tumor,Female,67,Ever,Stage I,Mutant,Mutant,Mutant,Wild type
+C3L-00412.T,C3L-00412,Tumor,Male,64,Ever,Stage III,Wild type,Mutant,Mutant,Mutant
+C3L-00422.T,C3L-00422,Tumor,Female,35,Never,Stage II,Wild type,Wild type,Wild type,Wild type
+C3L-00510.T,C3L-00510,Tumor,Female,80,Ever,Stage I,Mutant,Wild type,Mutant,Wild type
+C3L-00604.T,C3L-00604,Tumor,Female,61,Never,Stage III,Mutant,Wild type,Wild type,Wild type
+C3L-00893.T,C3L-00893,Tumor,Male,71,Ever,Stage I,Mutant,Wild type,Wild type,Wild type
+C3L-00913.T,C3L-00913,Tumor,Male,66,Ever,Stage III,Wild type,Mutant,Mutant,Wild type
+C3L-00973.T,C3L-00973,Tumor,Male,76,Never,Stage I,Wild type,Mutant,Wild type,Wild type
+C3L-01330.T,C3L-01330,Tumor,Female,68,Ever,Stage I,Mutant,Wild type,Wild type,Wild type
+C3L-01632.T,C3L-01632,Tumor,Female,60,Ever,Stage II,Wild type,Mutant,Wild type,Wild type
+C3L-01682.T,C3L-01682,Tumor,Female,78,Ever,Stage I,Mutant,Wild type,Mutant,Wild type
+C3L-01683.T,C3L-01683,Tumor,Male,77,Ever,Stage I,Wild type,Mutant,Wild type,Wild type
+C3L-01889.T,C3L-01889,Tumor,Female,71,Ever,Stage I,Wild type,Wild type,Wild type,Wild type
+C3L-01890.T,C3L-01890,Tumor,Female,58,Ever,Stage I,,,,
+C3L-01924.T,C3L-01924,Tumor,Female,68,Ever,Stage I,Wild type,Mutant,Mutant,Wild type
+C3L-02219.T,C3L-02219,Tumor,Male,77,Ever,Stage III,Wild type,Wild type,Wild type,Wild type
+C3L-02345.T,C3L-02345,Tumor,Female,61,Ever,Stage I,Wild type,Mutant,Wild type,Mutant
+C3L-02348.T,C3L-02348,Tumor,Female,58,Ever,Stage II,Wild type,Mutant,Wild type,Wild type
+C3L-02350.T,C3L-02350,Tumor,Male,69,Ever,Stage I,Wild type,Wild type,Wild type,Wild type
+C3L-02365.T,C3L-02365,Tumor,Female,62,Ever,Stage II,Wild type,Wild type,Mutant,Wild type
+C3L-02508.T,C3L-02508,Tumor,Male,65,Ever,Stage II,Wild type,Wild type,Wild type,Wild type
+C3L-02549.T,C3L-02549,Tumor,Male,69,Ever,Stage II,Wild type,Mutant,Wild type,Mutant
+C3N-00167.T,C3N-00167,Tumor,Male,64,Never,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-00169.T,C3N-00169,Tumor,Male,57,Ever,Stage I,Wild type,Mutant,Mutant,Wild type
+C3N-00175.T,C3N-00175,Tumor,Male,72,Ever,Stage I,Wild type,Mutant,Wild type,Wild type
+C3N-00180.T,C3N-00180,Tumor,Male,56,Ever,Stage III,Wild type,Mutant,Mutant,Mutant
+C3N-00199.T,C3N-00199,Tumor,Male,65,Ever,Stage I,Mutant,Wild type,Mutant,Wild type
+C3N-00203.T,C3N-00203,Tumor,Male,72,Ever,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-00217.T,C3N-00217,Tumor,Female,59,Ever,Stage I,Wild type,Wild type,Mutant,Mutant
+C3N-00223.T,C3N-00223,Tumor,Female,69,Never,Stage I,Mutant,Wild type,Wild type,Wild type
+C3N-00293.T,C3N-00293,Tumor,Male,73,,Stage I,Wild type,Wild type,Mutant,Wild type
+C3N-00433.T,C3N-00433,Tumor,Male,57,Never,Stage I,Wild type,Mutant,Wild type,Wild type
+C3N-00546.T,C3N-00546,Tumor,Male,58,Ever,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-00547.T,C3N-00547,Tumor,Male,60,Ever,Stage II,Wild type,Mutant,Mutant,Mutant
+C3N-00549.T,C3N-00549,Tumor,Male,58,Ever,Stage I,Wild type,Wild type,Mutant,Mutant
+C3N-00550.T,C3N-00550,Tumor,Female,52,Never,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-00551.T,C3N-00551,Tumor,Male,54,Ever,Stage I,Wild type,Mutant,Mutant,Wild type
+C3N-00552.T,C3N-00552,Tumor,Female,49,Never,Stage I,Wild type,Wild type,Mutant,Wild type
+C3N-00556.T,C3N-00556,Tumor,Male,69,Never,Stage II,Wild type,Mutant,Wild type,Wild type
+C3N-00559.T,C3N-00559,Tumor,Female,55,Never,Stage I,Mutant,Wild type,Mutant,Wild type
+C3N-00560.T,C3N-00560,Tumor,Male,55,Ever,Stage III,Wild type,Wild type,Mutant,Wild type
+C3N-00572.T,C3N-00572,Tumor,Female,48,Never,Stage I,Wild type,Wild type,Mutant,Wild type
+C3N-00574.T,C3N-00574,Tumor,Male,40,Never,Stage I,Mutant,Wild type,Mutant,Wild type
+C3N-00578.T,C3N-00578,Tumor,Male,48,Ever,Stage III,Wild type,Wild type,Wild type,Wild type
+C3N-00579.T,C3N-00579,Tumor,Male,67,Never,Stage I,Mutant,Wild type,Mutant,Wild type
+C3N-00580.T,C3N-00580,Tumor,Male,56,Ever,Stage I,Wild type,Mutant,Mutant,Wild type
+C3N-00704.T,C3N-00704,Tumor,Female,68,Ever,Stage I,Wild type,Mutant,Mutant,Wild type
+C3N-00737.T,C3N-00737,Tumor,Male,71,Ever,Stage I,Wild type,Wild type,Mutant,Wild type
+C3N-00738.T,C3N-00738,Tumor,Female,70,Ever,Stage I,Wild type,Wild type,Wild type,Wild type
+C3N-00959.T,C3N-00959,Tumor,Male,66,Ever,Stage I,Wild type,Mutant,Wild type,Wild type
+C3N-01016.T,C3N-01016,Tumor,Male,56,Ever,Stage III,Wild type,Mutant,Wild type,Mutant
+C3N-01021.T,C3N-01021,Tumor,Female,44,Never,Stage III,Mutant,Wild type,Wild type,Wild type
+C3N-01023.T,C3N-01023,Tumor,Male,58,Never,Stage III,Wild type,Mutant,Wild type,Mutant
+C3N-01024.T,C3N-01024,Tumor,Female,66,Never,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-01030.T,C3N-01030,Tumor,Male,56,Never,Stage I,Wild type,Mutant,Mutant,Wild type
+C3N-01071.T,C3N-01071,Tumor,Male,48,Ever,Stage I,Wild type,Wild type,Mutant,Wild type
+C3N-01072.T,C3N-01072,Tumor,Male,62,Never,Stage III,Wild type,Wild type,Wild type,Wild type
+C3N-01405.T,C3N-01405,Tumor,Male,59,Never,Stage I,Wild type,Wild type,Wild type,Wild type
+C3N-01410.T,C3N-01410,Tumor,Male,64,Never,Stage II,Wild type,Mutant,Wild type,Wild type
+C3N-01413.T,C3N-01413,Tumor,Female,62,Never,Stage I,Mutant,Wild type,Mutant,Wild type
+C3N-01414.T,C3N-01414,Tumor,Male,59,Never,Stage I,Wild type,Mutant,Wild type,Mutant
+C3N-01415.T,C3N-01415,Tumor,Male,72,Never,Stage III,Wild type,Wild type,Mutant,Wild type
+C3N-01416.T,C3N-01416,Tumor,Female,67,Never,Stage III,Mutant,Wild type,Wild type,Wild type
+C3N-01488.T,C3N-01488,Tumor,Male,54,Ever,Stage I,Wild type,Mutant,Wild type,Wild type
+C3N-01489.T,C3N-01489,Tumor,Male,65,Never,Stage I,Wild type,Mutant,Wild type,Wild type
+C3N-01799.T,C3N-01799,Tumor,Male,81,Ever,Stage II,Mutant,Wild type,Wild type,Wild type
+C3N-01823.T,C3N-01823,Tumor,Male,63,Never,Stage III,Wild type,Wild type,Mutant,Wild type
+C3N-02000.T,C3N-02000,Tumor,Female,46,Never,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-02002.T,C3N-02002,Tumor,Male,76,Never,Stage I,Mutant,Wild type,Wild type,Wild type
+C3N-02003.T,C3N-02003,Tumor,Male,56,Ever,Stage III,Wild type,Wild type,Mutant,Wild type
+C3N-02067.T,C3N-02067,Tumor,Female,37,,Stage III,Mutant,Wild type,Mutant,Wild type
+C3N-02087.T,C3N-02087,Tumor,Female,61,Never,Stage III,Mutant,Wild type,Mutant,Wild type
+C3N-02089.T,C3N-02089,Tumor,Male,76,Never,Stage I,Wild type,Wild type,Mutant,Mutant
+C3N-02145.T,C3N-02145,Tumor,Female,68,Never,Stage I,Mutant,Wild type,Wild type,Wild type
+C3N-02149.T,C3N-02149,Tumor,Male,64,Ever,Stage II,Wild type,Wild type,Mutant,Mutant
+C3N-02155.T,C3N-02155,Tumor,Male,45,Ever,Stage II,Mutant,Wild type,Wild type,Wild type
+C3N-02158.T,C3N-02158,Tumor,Female,54,Never,Stage III,Mutant,Wild type,Wild type,Wild type
+C3N-02379.T,C3N-02379,Tumor,Female,57,Never,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-02380.T,C3N-02380,Tumor,Male,56,Ever,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-02421.T,C3N-02421,Tumor,Male,58,Ever,Stage I,Mutant,Wild type,Mutant,Wild type
+C3N-02423.T,C3N-02423,Tumor,Male,70,Ever,Stage I,Wild type,Mutant,Mutant,Wild type
+C3N-02424.T,C3N-02424,Tumor,Male,64,Ever,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-02433.T,C3N-02433,Tumor,Female,68,Never,Stage I,Mutant,Wild type,Wild type,Wild type
+C3N-02529.T,C3N-02529,Tumor,Female,79,Never,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-02572.T,C3N-02572,Tumor,Male,49,Never,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-02582.T,C3N-02582,Tumor,Male,77,Ever,Stage II,Mutant,Wild type,Mutant,Wild type
+C3N-02586.T,C3N-02586,Tumor,Male,73,Ever,Stage II,Wild type,Wild type,Mutant,Wild type
+C3N-02587.T,C3N-02587,Tumor,Female,59,Never,Stage I,Wild type,Wild type,Wild type,Wild type
+C3N-02588.T,C3N-02588,Tumor,Male,69,,Stage II,Wild type,Wild type,Mutant,Wild type
+C3N-02729.T,C3N-02729,Tumor,Male,45,Never,Stage II,Mutant,Wild type,Wild type,Wild type
+C3L-00001.N,C3L-00001,Normal,Female,61,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00009.N,C3L-00009,Normal,Male,76,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00080.N,C3L-00080,Normal,Male,58,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00083.N,C3L-00083,Normal,Male,71,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00093.N,C3L-00093,Normal,Female,66,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00094.N,C3L-00094,Normal,Male,69,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00095.N,C3L-00095,Normal,Male,62,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00140.N,C3L-00140,Normal,Male,70,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00144.N,C3L-00144,Normal,Male,58,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00263.N,C3L-00263,Normal,Male,79,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00279.N,C3L-00279,Normal,Female,72,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00368.N,C3L-00368,Normal,Female,67,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00412.N,C3L-00412,Normal,Male,64,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00422.N,C3L-00422,Normal,Female,35,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00510.N,C3L-00510,Normal,Female,80,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00604.N,C3L-00604,Normal,Female,61,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00893.N,C3L-00893,Normal,Male,71,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00913.N,C3L-00913,Normal,Male,66,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-00973.N,C3L-00973,Normal,Male,76,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-01330.N,C3L-01330,Normal,Female,68,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-01632.N,C3L-01632,Normal,Female,60,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-01682.N,C3L-01682,Normal,Female,78,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-01683.N,C3L-01683,Normal,Male,77,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-01889.N,C3L-01889,Normal,Female,71,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-01890.N,C3L-01890,Normal,Female,58,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-01924.N,C3L-01924,Normal,Female,68,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-02219.N,C3L-02219,Normal,Male,77,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-02345.N,C3L-02345,Normal,Female,61,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-02348.N,C3L-02348,Normal,Female,58,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-02350.N,C3L-02350,Normal,Male,69,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-02365.N,C3L-02365,Normal,Female,62,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-02508.N,C3L-02508,Normal,Male,65,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3L-02549.N,C3L-02549,Normal,Male,69,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00167.N,C3N-00167,Normal,Male,64,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00169.N,C3N-00169,Normal,Male,57,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00175.N,C3N-00175,Normal,Male,72,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00180.N,C3N-00180,Normal,Male,56,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00199.N,C3N-00199,Normal,Male,65,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00203.N,C3N-00203,Normal,Male,72,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00217.N,C3N-00217,Normal,Female,59,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00223.N,C3N-00223,Normal,Female,69,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00293.N,C3N-00293,Normal,Male,73,,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00433.N,C3N-00433,Normal,Male,57,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00546.N,C3N-00546,Normal,Male,58,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00547.N,C3N-00547,Normal,Male,60,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00549.N,C3N-00549,Normal,Male,58,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00550.N,C3N-00550,Normal,Female,52,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00551.N,C3N-00551,Normal,Male,54,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00552.N,C3N-00552,Normal,Female,49,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00556.N,C3N-00556,Normal,Male,69,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00559.N,C3N-00559,Normal,Female,55,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00560.N,C3N-00560,Normal,Male,55,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00572.N,C3N-00572,Normal,Female,48,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00574.N,C3N-00574,Normal,Male,40,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00578.N,C3N-00578,Normal,Male,48,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00579.N,C3N-00579,Normal,Male,67,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00580.N,C3N-00580,Normal,Male,56,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00704.N,C3N-00704,Normal,Female,68,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00737.N,C3N-00737,Normal,Male,71,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00738.N,C3N-00738,Normal,Female,70,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-00959.N,C3N-00959,Normal,Male,66,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01016.N,C3N-01016,Normal,Male,56,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01021.N,C3N-01021,Normal,Female,44,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01023.N,C3N-01023,Normal,Male,58,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01024.N,C3N-01024,Normal,Female,66,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01030.N,C3N-01030,Normal,Male,56,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01071.N,C3N-01071,Normal,Male,48,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01072.N,C3N-01072,Normal,Male,62,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01405.N,C3N-01405,Normal,Male,59,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01410.N,C3N-01410,Normal,Male,64,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01413.N,C3N-01413,Normal,Female,62,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01414.N,C3N-01414,Normal,Male,59,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01415.N,C3N-01415,Normal,Male,72,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01416.N,C3N-01416,Normal,Female,67,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01488.N,C3N-01488,Normal,Male,54,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01489.N,C3N-01489,Normal,Male,65,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01799.N,C3N-01799,Normal,Male,81,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-01823.N,C3N-01823,Normal,Male,63,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02000.N,C3N-02000,Normal,Female,46,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02002.N,C3N-02002,Normal,Male,76,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02003.N,C3N-02003,Normal,Male,56,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02067.N,C3N-02067,Normal,Female,37,,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02087.N,C3N-02087,Normal,Female,61,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02089.N,C3N-02089,Normal,Male,76,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02145.N,C3N-02145,Normal,Female,68,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02149.N,C3N-02149,Normal,Male,64,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02155.N,C3N-02155,Normal,Male,45,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02158.N,C3N-02158,Normal,Female,54,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02379.N,C3N-02379,Normal,Female,57,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02380.N,C3N-02380,Normal,Male,56,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02421.N,C3N-02421,Normal,Male,58,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02423.N,C3N-02423,Normal,Male,70,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02424.N,C3N-02424,Normal,Male,64,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02433.N,C3N-02433,Normal,Female,68,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02529.N,C3N-02529,Normal,Female,79,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02572.N,C3N-02572,Normal,Male,49,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02582.N,C3N-02582,Normal,Male,77,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02586.N,C3N-02586,Normal,Male,73,Ever,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02587.N,C3N-02587,Normal,Female,59,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02588.N,C3N-02588,Normal,Male,69,,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue
+C3N-02729.N,C3N-02729,Normal,Male,45,Never,Normal tissue,Normal tissue,Normal tissue,Normal tissue,Normal tissue

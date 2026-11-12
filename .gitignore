@@ -1,0 +1,10 @@
+# Raw downloads (rebuild with the scripts in pipeline/)
+pipeline/raw/
+
+# OS / editor
+.DS_Store
+.Rhistory
+.Rproj.user/
+.vscode/
+.idea/
+node_modules/
